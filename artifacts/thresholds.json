@@ -1,0 +1,18 @@
+{
+  "name": "Skala",
+  "version": "1.0.0",
+  "labels": [
+    "simple",
+    "medium",
+    "complex"
+  ],
+  "thresholds": [
+    0.28,
+    0.3,
+    0.36
+  ],
+  "encoder": "encoder.int8.onnx",
+  "head": "head.joblib",
+  "tokenizer": "tokenizer.json",
+  "clamp": "struct_clamp.json"
+}

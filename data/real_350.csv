@@ -1,0 +1,351 @@
+text,label
+How do I print hello world in Python?,simple
+explain tcp handshake simply,simple
+How do I reverse a string in JS?,simple
+whats git stash do,simple
+Difference between == and === in JavaScript,simple
+How to check python version in terminal,simple
+What is a null pointer?,simple
+Convert celsius to fahrenheit formula,simple
+What does HTTP 404 mean?,simple
+What is the use of a .gitignore file?,simple
+How to exit vim lol,simple
+What is a REST API?,simple
+what does async mean in programming,simple
+How to declare a variable in Go?,simple
+What's the difference between RAM and ROM?,simple
+How to install a package with pip,simple
+What does CRUD stand for,simple
+What is a boolean?,simple
+How to copy a file in Linux,simple
+What does the break statement do,simple
+Explain how a for loop works with an example,simple
+What are environment variables and how do I use them,simple
+How does version control help in team projects,simple
+Explain recursion with a simple example,simple
+What is the difference between a process and a thread?,simple
+How does HTTPS differ from HTTP,simple
+Explain what a hash function does,simple
+What is the MVC pattern? simple explanation please,simple
+How does caching improve performance,simple
+What is a CDN and when would I use one,simple
+Explain promises in JavaScript to a beginner,simple
+how does binary search work,simple
+Write a Python function to check if a number is prime,simple
+Show me how to do basic list comprehension in Python,simple
+Write a simple REST endpoint in Flask,simple
+How to read a CSV file in Python with pandas,simple
+Create a simple to-do list app in React,simple
+How to connect to a SQLite database in Python,simple
+How to center a div in CSS,simple
+Make a simple HTTP GET request in Python,simple
+Write regex to validate an email address,simple
+How to merge two dictionaries in Python 3,simple
+Show a basic Docker build and run flow,simple
+How do I sort a list of objects by a field in Python,simple
+Write a basic unit test in Jest,simple
+How to use environment variables in a Node app,simple
+"My recursive DFS crashes after several calls, help debug",medium
+"I'm getting a CORS error in my React app, how to fix",medium
+How do I handle race conditions in concurrent Python code,medium
+What's the best way to paginate a large dataset in SQL,medium
+"My API response times are slow, where should I start debugging",medium
+Explain the CAP theorem with practical examples,medium
+How to implement JWT authentication in Express,medium
+Whats the diff between optimistic and pessimistic locking,medium
+How to do zero-downtime deployments for a web service,medium
+Best practices for error handling in async Node.js code,medium
+How to profile a slow Python script,medium
+Explain database normalization up to 3NF with examples,medium
+How do I avoid memory leaks in a long-running Node process,medium
+walk me through setting up CI/CD for a small team,medium
+How does connection pooling work and when should I use it,medium
+What are the tradeoffs between monorepo and polyrepo setups,medium
+Explain event-driven architecture to someone new to it,medium
+What's the difference between horizontal and vertical scaling,medium
+How to implement a basic pub-sub system from scratch,medium
+How to do blue-green deployments without breaking users,medium
+whats the time complexity of quicksort,medium
+Explain the difference between BFS and DFS,medium
+How does a load balancer decide which server to route to,medium
+Explain backpressure in streaming pipelines,medium
+What is write-ahead logging in databases,medium
+How does MVCC work in Postgres,medium
+Explain the fan-out problem in social feeds,medium
+What are the tradeoffs of a microservices vs monolith,medium
+How does consensus work in distributed systems briefly,medium
+What is tail latency and why does it matter,medium
+How does a LRU cache work internally,medium
+Help me pick between SQL and graph DB for a social network app,medium
+Review this database schema and tell me what's wrong with it,medium
+Should I use a queue or a database for this job processing use case,medium
+Walk me through best practices for secrets management,medium
+What's the right way to handle distributed tracing in my services,medium
+Design a distributed recommendation system with failure recovery strategies,complex
+How would you architect a multi-tenant SaaS platform with strict data isolation,complex
+Design a system to handle 100k concurrent WebSocket connections reliably,complex
+Create a comprehensive ML pipeline for training and serving large language models in production,complex
+How would you build a search engine from scratch that handles typos and semantic similarity,complex
+Design an event sourcing system with CQRS that handles audit logs and replay,complex
+Architect a payment processing system with idempotency and exactly-once semantics,complex
+Design a distributed job scheduling system that handles priorities and retries at scale,complex
+Build a feature store architecture for real-time and batch ML feature serving,complex
+How do I build a horizontally scalable notification system for billions of users,complex
+Design a content delivery system that handles surges from viral content,complex
+Create a multi-region database replication strategy with minimal lag and failover,complex
+What are the main challenges with distributed transactions and how do teams solve them,complex
+Explain the design decisions behind a modern column-store database,complex
+How do large-scale recommendation systems handle cold start problems,complex
+What are the engineering tradeoffs of building your own service mesh vs using an existing one,complex
+How do you design an ML system that can detect data drift in production,complex
+Describe the architecture of a high-availability storage system with erasure coding,complex
+What makes building multi-tenant ML inference systems hard and how do teams do it,complex
+How do you build a rate limiter that works correctly across multiple nodes,complex
+What are the tradeoffs in designing a log-structured merge-tree storage engine,complex
+How does a modern stream processing system handle late-arriving data correctly,complex
+Design a cache eviction strategy for a system with wildly varying access patterns,complex
+Help me plan a migration from a monolith to services without downtime,complex
+Review my ML model serving architecture and find the bottlenecks,complex
+Help me design observability for a system with 50 interdependent services,complex
+My system has unpredictable latency spikes under load. help me figure out why,complex
+Build a live chat feature that shows typing indicators in real time,medium
+How do I push live price updates to thousands of users simultaneously,complex
+How to build a live dashboard that refreshes every second without overloading the server,medium
+Implement a collaborative whiteboard where multiple users draw at the same time,complex
+How do I stream AI responses token by token to the frontend,medium
+What's the best way to handle live GPS tracking for a delivery app,medium
+How to implement live autocomplete suggestions as user types,simple
+design a pub-sub system for live sports score updates,medium
+How do I schedule a daily ML model retraining job,medium
+I need to backfill 2 years of historical data into a new table,medium
+How to generate PDF reports for 100k users in the background,medium
+Build an ETL pipeline that runs nightly to sync two databases,medium
+How to batch-send email newsletters to a million subscribers efficiently,medium
+"My model's accuracy is dropping in production, where do I start",medium
+How do I version datasets for reproducible ML training,medium
+Explain the difference between online and batch feature engineering,medium
+How do I set up A/B testing for two versions of an ML model,medium
+What's the best way to serve a PyTorch model with low latency,medium
+How to detect when my training data starts to look different from prod data,complex
+What should my ML model CI/CD pipeline include,medium
+How do I handle class imbalance in a production fraud model,medium
+Build a simple model registry from scratch,medium
+How to roll back a bad model deployment safely,medium
+Summarize recent approaches to reducing LLM hallucinations,complex
+What are the current state-of-the-art methods for time series forecasting,complex
+Compare different approaches to vector similarity search at scale,medium
+What are the known failure modes of transformer-based models,medium
+What does the research say about the effectiveness of chain-of-thought prompting,medium
+Summarize the tradeoffs of different approximate nearest neighbor algorithms,medium
+What's the current thinking on retrieval-augmented generation vs fine-tuning,complex
+What are the main approaches to neural architecture search,complex
+what language should I learn first as a beginner,simple
+i dont understand what a variable is can you explain,simple
+"what is a function in programming, explain like im 10",simple
+confused about what an IDE is,simple
+how does the internet actually work at a high level,simple
+can you explain what a server is in simple terms,simple
+difference between frontend and backend for a beginner,simple
+what does it mean when code throws an exception,simple
+what is an algorithm in plain english,simple
+"i keep seeing JSON everywhere, what is it",simple
+my app keeps crashing randomly and I have no idea why,medium
+things are working locally but broken in prod,medium
+"users are complaining the app is slow, what do I check",medium
+"I want my system to handle more traffic, where do I start",medium
+something in my pipeline is failing silently and I cant find it,medium
+I think theres a memory leak but im not sure how to confirm,medium
+"my build times are getting really long, any ideas",medium
+"we're seeing weird behavior only on Tuesdays, what could cause that",complex
+my service works fine for 1000 users but breaks at 10k,complex
+i need to make this faster but dont know where the bottleneck is,medium
+the tests pass locally but fail in CI,medium
+"I need to start from scratch on the backend, any advice",medium
+"I'm overwhelmed by all the infra options, how do I choose",medium
+k8s vs docker compose for small team,medium
+async vs sync quick explanation,simple
+best db for high write throughput?,medium
+tf is a sidecar container,simple
+diff btwn put and patch in REST,simple
+pg vs mysql for 2025 project,simple
+how 2 make docker container smaller,simple
+whats service mesh tho,medium
+lambda vs ec2 for event processing,medium
+sql joins quick ref plz,simple
+should i use nosql or sql???,medium
+how often shud i commit to git lol,simple
+How do I set up a load balancer for a Node app on a single cloud provider,medium
+What's a good container resource request/limit strategy for variable workloads,medium
+How do I set up auto-scaling that doesn't overreact to short spikes,medium
+Walk me through setting up a basic VPC with public and private subnets,medium
+How to manage infrastructure changes safely across multiple environments,medium
+How do I reduce cold start time for serverless functions,medium
+What's involved in running a multi-region active-active setup,complex
+Set up a service that auto-scales based on queue depth,complex
+This async function returns before the data is ready sometimes,medium
+"My database writes are way slower than reads, what's going on",medium
+My service mesh is dropping about 2% of requests silently,complex
+I have a Heisenbug that disappears when I add logging,complex
+Memory usage grows by 10MB every hour in my Java service,complex
+This race condition only happens in prod under high load,complex
+How do I implement debounce in vanilla JavaScript,simple
+Write a generic binary search tree in TypeScript,medium
+Write a parser for a simple expression language,complex
+Implement consistent hashing in Go,complex
+Show me how to write a custom React hook for pagination,medium
+Write a middleware that logs every request and response,simple
+Implement a simple in-memory LRU cache in Python,medium
+How to write a CLI tool in Go with flags and subcommands,medium
+Write a function that retries an async operation with jitter,medium
+Show me how to do pagination with cursor-based approach in GraphQL,medium
+Write a simple distributed lock using Redis primitives,complex
+What factors should I weigh when choosing a message broker,medium
+"How do teams manage config across dev, staging, and prod",medium
+What are the tradeoffs of server-side vs client-side rendering,medium
+What's the difference between circuit breaker and retry patterns,medium
+How to model hierarchical data in a relational database,medium
+When should I use a graph database instead of a relational one,medium
+How do I implement full-text search without an external service,medium
+How do I measure the latency of each service call in my stack,medium
+How do I reduce API response time from 800ms to under 200ms,complex
+How to safely run database migrations with millions of rows in prod,complex
+What are the hardest parts of building a reliable job queue,complex
+How to implement soft deletes and why it gets complicated,medium
+How do I build multi-language support into my app from the start,medium
+What are common GDPR compliance considerations for a SaaS app,medium
+How to structure feature permissions for a role-based system,medium
+How do teams handle long-running transactions safely,complex
+Explain the saga pattern for distributed business transactions,complex
+How do I profile and reduce cold starts in a containerized environment,complex
+What's the deal with linear vs append-only data structures,medium
+What's the tradeoff between normalization and query performance,medium
+How to design an API that can evolve without breaking clients,medium
+Build a data pipeline that handles schema changes gracefully,complex
+How do large teams coordinate on a shared database schema,complex
+What are signs that a monolith is ready to be broken up,medium
+What are the practical gotchas of running containers in production,medium
+How do you calculate the right timeout values for service calls,medium
+What's a sensible default observability stack for a new service,medium
+How do I model financial transactions to avoid double-spend issues,complex
+What does a healthy on-call rotation look like for a small team,simple
+How do embedding models differ from generative models,medium
+What are practical ways to reduce inference cost for an LLM app,complex
+How do you do canary deployments for ML models specifically,complex
+What is quantization and does it hurt model quality much,medium
+what is a transformer architecture in one paragraph,simple
+How do I pick the right embedding dimension for my use case,medium
+How do I check if a key exists in a Python dict,simple
+What does the yield keyword do in Python,simple
+How to check disk usage on Linux,simple
+What is a constructor in OOP,simple
+How do I pass command line args to a Python script,simple
+What does idempotent mean in APIs,simple
+How to make a GET request with curl,simple
+How to format a date in Python,simple
+How to flatten a nested list in Python,simple
+What is port forwarding,simple
+What is SSH and how does it work simply,simple
+What does it mean to serialize data,simple
+How to convert JSON to a Python dict,simple
+What is the purpose of a package.json file,simple
+How to run a shell command from Python,simple
+What is method overloading,simple
+How to read a file line by line in Python,simple
+What is an abstract class,simple
+What is a webhook,simple
+How to swap two variables without a temp in Python,simple
+What is a singleton pattern,simple
+How to install npm packages globally,simple
+What does TTL mean in networking,simple
+How to generate a random number in Python,simple
+What is a closure in JavaScript,simple
+How do distributed systems handle network partitions,medium
+What's the right way to handle long-running HTTP requests,medium
+How do I mock database calls in Python unit tests,medium
+Explain vector clocks and why they matter,medium
+How does connection draining work in a load balancer,medium
+How to do graceful shutdown of a web server,medium
+When should you use a message queue vs direct API calls,medium
+How do you implement search autocomplete efficiently,medium
+How to detect and prevent SQL injection,medium
+Explain the difference between eager and lazy loading,medium
+How to handle long-polling vs webhooks vs SSE,medium
+What strategies exist for handling API versioning,medium
+What is change data capture and when would I use it,medium
+How do I handle timezone-aware datetimes in Python correctly,medium
+How to batch database writes without losing data,medium
+How do I prevent data loss during a service restart,medium
+What is the strangler fig pattern and when to use it,medium
+How do I do canary releases for a REST API,medium
+How to write idempotent database migrations,medium
+How do I implement a distributed counter accurately,medium
+Best practices for structuring a large SQL query,medium
+How to handle long transactions that might timeout,medium
+How would you design a globally consistent metadata store,complex
+Explain the internals of a modern query optimizer,complex
+Design a distributed rate limiter that works across data centers,complex
+Architect a system that guarantees exactly-once delivery at scale,complex
+How do you build a time-series database optimized for high cardinality,complex
+Design the data model for a multi-tenant permission system at scale,complex
+How do large-scale ML inference systems handle model versioning safely,complex
+What are the challenges and solutions for live migrating stateful containers,complex
+How do you design a distributed queue that handles backpressure gracefully,complex
+How to build a cross-region active-active database with conflict resolution,complex
+What's involved in building a low-latency high-throughput matching engine,complex
+How do you prevent thundering herd in a distributed caching layer,complex
+Explain how columnar compression works and affects query performance,complex
+How would you build a fully auditable event log with tamper detection,complex
+Design an adaptive routing system that handles heterogeneous backend capacity,complex
+How to safely migrate a live system from eventual to strong consistency,complex
+What are the deep performance considerations for building a JVM-based service,complex
+Design a system for online learning where models update from live user feedback,complex
+How do you build observability into a system that handles 1M events per second,complex
+"Design a content moderation pipeline that handles text, images, and video at scale",complex
+How would you build a distributed ID generation system with time ordering,complex
+Design a real-time anomaly detection system for infrastructure metrics,complex
+What are the tradeoffs of CRDT-based conflict resolution vs OT for collaborative apps,complex
+How do you safely deprecate an internal API used by 30 downstream services,complex
+How do you design a low-latency ad bidding system that handles 500k QPS,complex
+Design an autoscaling inference cluster for multimodal AI models with cost controls,complex
+How would you build a multi-cloud disaster recovery system with RPO under 1 minute,complex
+Architect a real-time personalization engine for an e-commerce platform at scale,complex
+How to architect a platform for running untrusted user code securely at scale,complex
+Design a self-healing infrastructure system that detects and remediates issues autonomously,complex
+How to build a horizontally scalable session management system with sub-millisecond lookup,complex
+Design a large-scale data anonymization pipeline that preserves analytical utility,complex
+Design a system to detect and mitigate DDoS attacks in real time without blocking legitimate users,complex
+What is a namespace in programming,simple
+How to create an empty array in JavaScript,simple
+What is a heap in data structures,simple
+What is a semaphore,simple
+Whats the difference between i++ and ++i,simple
+How to get current timestamp in Unix seconds in Python,simple
+What is a race condition in one line,simple
+How to check type of variable in Python,simple
+What is the difference between deep copy and shallow copy,simple
+Help me pick between a managed queue and a self-hosted broker for my use case,medium
+What caching strategy makes sense for my read-heavy product catalog,medium
+Review my API rate limiting approach and identify weaknesses,medium
+How should I structure config management across 20 services,medium
+Help me plan a database migration with minimal developer disruption,medium
+What observability gaps do teams typically miss in their first production service,medium
+How does Raft consensus algorithm actually work step by step,complex
+Explain the internals of how a distributed hash table routes requests,complex
+What are the deep tradeoffs in choosing between push vs pull architectures,complex
+What are the failure modes of leader election in a distributed system,complex
+Explain fencing tokens and why they matter for distributed locking,complex
+How do modern databases maintain ACID guarantees without sacrificing throughput,complex
+How does the Linux kernel handle context switching,medium
+Explain how JIT compilation works at a high level,medium
+What is copy-on-write and how is it used in OS design,medium
+Explain how virtual memory paging works,medium
+How do file system journaling and checksums protect against corruption,medium
+What is a content negotiation in HTTP,simple
+How to convert a dict to a sorted list of tuples in Python,simple
+How do I set a timeout on a network call in Python,simple
+What is the difference between INNER JOIN and LEFT JOIN,simple
+What is the difference between TCP and UDP,simple
+What is the Observer design pattern,simple
+"Architect an end-to-end data lake with governance, lineage, and query federation",complex
+Build a cross-cloud identity federation system with SSO and fine-grained permissions,complex
+Architect a horizontal scaling strategy for a stateful multiplayer game backend,complex

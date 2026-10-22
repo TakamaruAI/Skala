@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=77.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "skala"
+version = "1.0.0"
+description = "Prompt-difficulty classifier for simple, medium and complex tiers"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+# The pinned stack needs Python 3.12-3.14: numpy 2.5.4 and scipy 1.18.1 publish no
+# cp310/cp311 wheels, and onnxruntime 1.31.0 publishes no cp315 wheel.
+requires-python = ">=3.12,<3.15"
+# Pinned exactly, not ranged: this is the environment the artifact was fitted in and
+# the numbers were measured in, and the fitted head will not unpickle under another
+# scikit-learn. Install with `pip install .` and you get the verified stack.
+dependencies = [
+    "numpy==2.5.4",
+    "scipy==1.18.1",
+    "scikit-learn==1.9.1",
+    "joblib==1.6.0",
+    "onnxruntime==1.31.0",
+    "transformers==5.20.0",
+    "tokenizers==0.23.3",
+]
+
+[tool.setuptools]
+packages = ["skala"]

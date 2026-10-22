@@ -1,0 +1,7 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+*.onnx binary
+*.joblib binary
+*.npy binary
+*.npz binary

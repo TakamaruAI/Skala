@@ -1,0 +1,53 @@
+text,label
+"hi",simple
+"hello",simple
+"what",simple
+"jeff",simple
+"cake",simple
+"who is big foot",simple
+"hi in chinese",simple
+"skala is what",simple
+"how many cores is ps4",simple
+"how many spu is ps3",simple
+"weather in tokyo",medium
+"weather tokyo now",medium
+"latest concerts of usa",medium
+"search web for laur concerts",medium
+"find out when babylon 2.1 released",medium
+"run automation",medium
+"run plant monitor automation",medium
+"execute event watcher",medium
+"control my desktop",medium
+"find files on xbox",medium
+"upload pkg to xbox and install them",medium
+"turn my lights off",medium
+"set a timer for 5 minutes",medium
+"send a message on discord using mcp skill",medium
+"take a screenshot",medium
+"mute notifications",medium
+"improve my code",medium
+"make my site better",medium
+"clean up my computer",medium
+"calculate 900-1000 using python",medium
+"write unit test for this function",medium
+"add retry to my http call",medium
+"summarize this pdf",medium
+"plan my 3-day trip to lisbon",medium
+"explain the ps3 architecture",medium
+"explain how tls handshake works",medium
+"teach me how kubernetes operators work",medium
+"convert this shader graph to work on software",medium
+"port the last of us 1 elf to pc for c",complex
+"port gta 4 to nintendo 3ds",complex
+"port stardew valley to 3ds in c++",complex
+"build a shell in rust mirroring zsh completions",complex
+"rewrite our ember.js monolith in go services",complex
+"replicate the wii u gamepad stream protocol from scratch",complex
+"design a distributed rate limiter on redis under partitions",complex
+"migrate the monolith to microservices with zero downtime",complex
+"prove n^2 + n is even by induction",complex
+"automate nightly video rendering and upload with retries",complex
+"cut inference latency from 200ms to 20ms on cpu",complex
+"build full stack app: react vite, fastapi, postgres, auth, docker",complex
+"total destruction",medium
+"fix my wifi",medium

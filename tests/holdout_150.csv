@@ -1,0 +1,151 @@
+text,label
+What monitoring should I set up for a production microservice,medium
+What's the right level of logging for a production system,simple
+is python good for beginners? why or why not,simple
+Build an end-to-end ML system for dynamic pricing with feedback loops,complex
+Explain database indexing and when to use composite indexes,medium
+Architect a zero-trust security model for a cloud-native microservices platform,complex
+How do you handle schema migrations in a zero-downtime high-traffic system,complex
+What's wrong with this distributed caching strategy I've implemented,complex
+Review my event-driven architecture and suggest improvements,medium
+How do companies benchmark LLMs for domain-specific use cases,medium
+How do I enforce strict typing across a large Python codebase,medium
+How does a modern database implement snapshot isolation under the hood,complex
+How to set up structured logging that's easy to query,medium
+Write a script that processes 10 million log files overnight,medium
+How to use ternary operator in Python,simple
+What is a virtual environment in Python and why use one,simple
+What metrics should I monitor for a deployed classification model,medium
+Write a bash script to list all files in a directory,simple
+What's the right granularity for microservice boundaries,medium
+What does volatile mean in Java,simple
+How to measure and control p99 latency for an API,medium
+How to remove duplicates from a list in Python,simple
+How do I fine-tune a small model on my own dataset,medium
+How does a write-through vs write-back cache affect consistency,medium
+Explain the difference between authorization and authentication,simple
+What are Python decorators used for? beginner explanation,simple
+How to design a graph-based fraud detection system that updates in real time,complex
+Explain the outbox pattern for reliable event publishing,medium
+Explain how vector databases work and when to use them,medium
+Compare actor model vs shared memory concurrency approaches,complex
+Explain the difference between SQL and NoSQL databases,simple
+How to prevent hotspots in a sharded database,medium
+How to handle optional parameters in a Python function,simple
+Review my Python ML training loop for potential bugs,medium
+What does immutable mean in programming,simple
+what does compiling code mean,simple
+Implement a state machine for an order workflow in Python,medium
+Implement a thread-safe queue in Java,medium
+What is object-oriented programming? Give a simple explanation,simple
+Explain RLHF in plain English,medium
+What is the two-phase commit protocol,medium
+How to build a platform that serves millions of personalized ML model predictions per second,complex
+pls explain idempotency w/ example,medium
+How do I build a reliable health check endpoint,simple
+What is a microservice in one sentence,simple
+whats temperature do in LLMs,simple
+How do I build alerts that don't wake me up for false positives,medium
+What are the challenges of building low-latency trading systems and how are they solved,complex
+"im new to coding, where do i even start",simple
+How does memory alignment affect performance,medium
+How do I split a string in Python,simple
+whats a deadlock and how do you prevent it,medium
+How do you implement a distributed cache with consistency guarantees,complex
+How to reason about correctness in a concurrent system without global locks,complex
+How to build a reliable distributed lock that handles network partitions,complex
+Walk me through how DNS resolution works,simple
+How would you build a fast approximate query system over petabytes of data,complex
+How to architect a permissions system that scales to millions of resources,complex
+How do you handle split-brain scenarios in a multi-master database,complex
+How to make a REST API backward compatible after a breaking change,medium
+How to add two matrices together in Python,simple
+Analyze my API design and suggest improvements,medium
+How do I test code that depends on external APIs,medium
+How do I run heavy model inference jobs without impacting prod latency,complex
+My ML model training loss plateaus after epoch 3,medium
+Design a simple URL shortener backend,simple
+Design a workflow engine that supports long-running human-in-the-loop tasks,complex
+How to test infrastructure changes before pushing to prod,medium
+When is it worth building your own tooling vs using off the shelf,medium
+Whats a good strategy for handling timezone issues in a global app,medium
+What is NUMA and why does it matter for performance tuning,medium
+What are feature flags and how do I roll them out safely,medium
+Implement a simple token bucket rate limiter in Python,medium
+How to architect a system that ingests and processes IoT telemetry at massive scale,complex
+Design a multi-model serving platform that autoscales by per-model demand,complex
+What are the real challenges of building multi-region traffic routing,complex
+Design a real-time collaborative editing system like Google Docs from scratch,complex
+Analyze the performance characteristics of my database schema,medium
+Help me redesign this service interface to be more resilient,medium
+How to implement rate limiting on an API,medium
+How does garbage collection work in simple terms,simple
+What infrastructure changes are needed to go from 100 to 100k users,complex
+What's the right way to do health checks for containerized services,simple
+help me understand N+1 query problem with a real example,medium
+What is a Docker image vs container,simple
+How to build an intelligent query router that distributes reads based on data freshness needs,complex
+"our database keeps running out of space, what are our options",medium
+Build a real-time fraud detection pipeline that handles millions of events per day,complex
+Whats the diff between list and tuple,simple
+How do I structure a Node.js project for scalability,medium
+Compare managed database services vs self-hosted for a startup,medium
+Design a full observability platform for a distributed system from scratch,complex
+What is a REST verb?,simple
+Explain the performance tradeoffs of different B-tree variants,complex
+How do I convert a list to a set in Python,simple
+Explain consistent hashing and where it's useful,medium
+How do I track ML experiments and compare different model versions,medium
+Set up a process to auto-archive old database records weekly,simple
+How does sparse retrieval compare to dense retrieval for RAG,complex
+Getting inconsistent test results when running in parallel,medium
+How to run chaos engineering experiments safely,complex
+What's involved in setting up a self-hosted analytics stack,complex
+How do you handle cascading failures across dependent microservices,complex
+Design a system to serve personalized search results in under 50ms at global scale,complex
+How do mixture-of-experts models differ from dense transformers architecturally,complex
+How does a bloom filter work,medium
+explain o(n log n) simply,simple
+Help me think through a caching strategy for my app,medium
+How to build a plugin system for a Python application,medium
+I'm getting a seg fault in my C code and can't find it,medium
+Design a system to power real-time leaderboards for a game,complex
+How do I check if a list is empty in Python,simple
+"I need to refactor this class hierarchy, help me design a cleaner version",medium
+What does API stand for?,simple
+Design a globally distributed key-value store with strong consistency guarantees,complex
+How do I make my deployments fully reproducible,medium
+How does a WAL-based replication work in practice,complex
+What is a foreign key in a database?,simple
+What is eventual consistency?,medium
+How to design a URL shortener that handles billions of links,medium
+What is the difference between synchronous and asynchronous code,simple
+What is a trailing slash in a URL and does it matter,simple
+How to implement retry logic with exponential backoff,medium
+What's the best approach for logging PII-sensitive data safely,medium
+What's the right abstraction layer for a multi-database app,complex
+"we keep shipping bugs to prod, how do teams prevent this",medium
+Build a smart alerting system that learns normal baselines and reduces alert fatigue,complex
+How to implement optimistic UI updates in React,medium
+diff between stack and queue,simple
+How to count word frequency in a string,simple
+How to chain promises in JavaScript,simple
+How to get the length of a string in Go,simple
+Design a notification preferences system for a product,medium
+How does the OS scheduler decide which process to run next,medium
+why do people use linux instead of windows for coding,simple
+How to implement websocket connections that survive reconnects,medium
+How to check if a string is a palindrome,simple
+My search results become inconsistent after heavy writes,complex
+What does the 200 HTTP status code mean,simple
+What is a lambda function,simple
+What is SSH key authentication vs password auth,simple
+How to evaluate whether an LLM answer is correct at scale,complex
+what does open source mean,simple
+Write a Python script to scrape product prices from a website,medium
+Design a compliance-aware data pipeline with lineage tracking and access auditing,complex
+"My SQL query is slow on 10M rows, what should I check first",medium
+How do transaction coordinators manage distributed 2PC in practice,complex
+How do I comment out code in Python?,simple
+explain sharding eli5,medium
+What are the challenges of running stateful workloads in containerized environments,complex
